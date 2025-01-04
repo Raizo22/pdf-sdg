@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 
 def get_ai_response(prompt):
     # Set API Key OpenAI melalui variabel lingkungan
-    os.environ["OPENAI_API_KEY"] = "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"
+    os.environ["OPENAI_API_KEY"] = "your api key"
 
     # Inisialisasi ChatOpenAI dari LangChain
     llm = ChatOpenAI(model="gpt-4o-mini", temperature=0)
